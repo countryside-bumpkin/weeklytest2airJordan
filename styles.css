@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    background:black;
+    padding-left: 200px;
+    padding-right: 260px;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    /* padding:14px ; */
+    color:white;
+    font-size:14px;
+    gap:1px;
+    align-items: center;
+    height:7vh;
+}
+header p{
+    text-align:center;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color: white;
+    padding:10px;        
+    font-weight:bold
+}
+ul input{
+    width:28vw;
+}
+.sec1{
+    padding: 6% 10%;
+    font-size: larger;
+    background: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height:25vh;
+}
+.con1{
+    width: 67%;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 2%;
+        
+}
+.sec2{
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0,0.1);
+}
+.ConT{
+    padding: 1%;
+        background-color: rgba(0, 0, 0, 0.3);
+}
+.img {
+    height: 150px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 0.1%;
+  }
+.sec3{
+    background: linear-gradient(to left, #000000, #434343);
+    padding:16vh 9vw;
+}
+.ConH{
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding-top:6vh;
+    padding-bottom:18vh;
+    padding-left:3vw;
+    padding-right:3vw;
+    font-size: large;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* .lasst{
+    display:flex;
+    flex-direction:column;
+} */
+.lastImg{
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    box-shadow: 8px 8px 8px white;
+}
+.lastImg:hover{
+    position: relative;
+    right:10px;
+    top:25px;
+    height:390px;
+    width:390px;
+}
